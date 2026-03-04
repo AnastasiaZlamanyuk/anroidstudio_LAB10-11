@@ -69,7 +69,7 @@ fun StudentInformation(
     @StringRes studentName: Int,
     studentAge: Int,
     modifier: Modifier = Modifier
-) {
+){
     Column(modifier = modifier) {
         Text(
             text = stringResource(studentName),
