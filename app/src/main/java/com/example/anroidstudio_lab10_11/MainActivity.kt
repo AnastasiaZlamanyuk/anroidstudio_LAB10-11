@@ -96,7 +96,7 @@ fun StudentItem(
 }
 @Composable
 fun StudentApp() {
-    Scaffold { it->
+    Scaffold { it ->
         LazyColumn(contentPadding = it) {
             items(students){
                 StudentItem(
@@ -113,6 +113,13 @@ fun StudentApp() {
 fun StudentPreview() {
     Student_Material_DesignTheme(darkTheme = false)
     {
+        StudentApp()
+    }
+}
+@Preview
+@Composable
+fun StudentDarkThemePreview() {
+    Student_Material_DesignTheme(darkTheme = true) {
         StudentApp()
     }
 }
