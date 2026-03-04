@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">anroidstudio_LAB10-11</string>
+    <string name="app_name">Student List</string>
     <string name="student1">Иван Петров</string>
     <string name="student2">Мария Смирнова</string>
     <string name="student3">Алексей Иванов</string>
